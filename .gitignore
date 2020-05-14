@@ -1,0 +1,12 @@
+*.iml
+.idea/
+.gradle
+build/
+out/
+target
+.classpath
+.project
+.settings
+.groovy
+/src/test/groovy/Test.groovy
+/config
