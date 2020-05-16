@@ -32,3 +32,15 @@ String echo(String message) {
 
 def echoStr = echo(sum);
 println("echoStr : "+echoStr)
+
+
+def centeredStr= person.center(8,'w')
+println(centeredStr)
+
+def compareToStr = 'zhong'
+def minusStr = 'onw'
+println(person>compareToStr)
+println(compareToStr[0..2])
+println(compareToStr-minusStr)
+println(person.reverse())
+println(compareToStr.capitalize())
